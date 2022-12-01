@@ -21,6 +21,9 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
+
+    position: relative;
+    z-index: 999пше;
     border-bottom: 1px solid #355120;
 }
 
