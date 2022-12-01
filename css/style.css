@@ -1,0 +1,228 @@
+.container{
+    max-width: 1160px;
+    width: 100%;
+    margin: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header__container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #355120;
+}
+
+.link{
+    border: none;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 70px;
+    line-height: 97px;
+    color: #1E1E1E;
+}
+
+.nav__item{
+    margin-left: 48px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #355120;
+}
+
+/* promo */
+
+.promo{
+    margin-top: -128px;
+    padding-bottom: 598px;
+    background: url('../img/background__prom.png');
+}
+
+.tittle{
+    font-weight: normal;
+}
+.tittle{
+    max-width: 1072px;
+    width: 100%;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #161616;
+}
+.promo__tittle{
+    padding-top: 192px;
+    
+}
+/* catalog */
+
+.catalog{
+    margin-top: -145px;
+}
+.catalog__tittle{
+    margin: auto;
+    font-family: 'Mountains of Christmas';
+    font-size: 70px;
+    line-height: 97px;
+    color: #1E1E1E;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    cursor: pointer;
+    width: 366px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/img/кактусы.png);
+    margin-bottom: 30px;
+}
+
+.card:nth-of-type(2){
+    background: url(../img/img/суккуленты.png);
+}
+
+.card:nth-of-type(3){
+    background: url(../img/img/кристатные.png);
+}
+
+.card:nth-of-type(4){
+    background: url(../img/img/варигатные.png);
+}
+
+.card:nth-of-type(5){
+    background: url(../img/img/каудексные.png);
+}
+
+.card:nth-of-type(6){
+    background: url(../img/img/монстрозные.png);
+}
+
+.card:nth-of-type(7){
+    background: url(../img/img/грунт_и_удобрения.png);
+}
+
+.card:nth-of-type(8){
+    background: url(../img/img/горшки_и_аксессуары.png);
+    margin-bottom: 199px;
+}
+
+.card:nth-of-type(9){
+    background: url(../img/img/идеи_подарков.png);
+}
+
+
+
+.card__tittle{
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFCC99;
+    text-align: center;
+}
+
+/* form */
+
+.form{
+    background: url('../img/background__frame.png');
+    margin-top: -145px;
+}
+
+.form__tittle{
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+.form__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form__name{
+    max-width: 840px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    padding-left: 20px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    width: 380px;
+    height: 63px;
+    background: #FFFFFF;
+    border: 2px solid #355120;
+    border-radius: 20px;
+}
+
+.name::placeholder{
+    color: #355120;
+    margin-left: 20px;
+}
+
+.name:focus::placeholder{
+    color: transparent;
+}
+
+.about{
+    padding-left: 20px;
+    padding-top: 20px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #355120;
+
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 820px;
+    height: 264px;
+    background: #FFFFFF;
+    border: 2px solid #355120;
+    border-radius: 20px;
+    }
+
+.about::placeholder{
+    color: #355120;
+}
+
+.form__btn{
+    color: white;
+    padding: 13px 38px;
+    margin-bottom: 80px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    background: #355120;
+    border-radius: 20px;
+    border: none;
+}
