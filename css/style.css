@@ -216,6 +216,10 @@ body{
     color: #355120;
 }
 
+.about:focus::placeholder{
+    color: transparent;
+}
+
 .form__btn{
     color: white;
     padding: 13px 38px;
